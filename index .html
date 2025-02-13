@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/site1.css" />
+    <link rel="icon" type="image/x-icon" href="temperature.png">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Temperatura</title>
+    
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Temperatura</h1>
+            <p>Nesta página é possivel converter Celsius para Fahrenheit.</p>
+            <div class="features">
+                <div>
+                    <h2>Celsius para Fahrenheit</h2>
+                    <input type="number" id="celsius" placeholder="Digite a temperatura em Celsius">
+                    <button onclick="converterCelsiusParaFahrenheit()">Converter</button>
+                    <p id="resultadoCelsius"></p>
+                </div>
+            
+                <div>
+                    <h2>Fahrenheit para Celsius</h2>
+                    <input type="number" id="fahrenheit" placeholder="Digite a temperatura em Fahrenheit">
+                    <button onclick="converterFahrenheitParaCelsius()">Converter</button>
+                    <p id="resultadoFahrenheit"></p>
+                </div>
+        </div>
+    </main>
+    
+</body>
+</html>
